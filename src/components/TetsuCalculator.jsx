@@ -270,9 +270,9 @@ const TetsuCalculator = () => {
                     <div className="flex-1 py-2 px-3">
                       <span className="text-sm font-medium text-stone-800">
                         {idx === 0 ? (
-                          <>Bloom grounds with <span className="font-bold">{pour}g</span></>
+                          <>Bloom with <span className="font-bold">{pour}g</span></>
                         ) : (
-                          <>Add up to <span className="font-bold">{calculations.runningTotal[idx]}g</span></>
+                          <>Add up to <span className="font-bold">{calculations.runningTotal[idx]}g water</span></>
                         )}
                       </span>
                     </div>
@@ -285,7 +285,7 @@ const TetsuCalculator = () => {
 
         <footer className="mt-6 py-3 px-6 bg-white/20 backdrop-blur-sm border-t border-stone-200">
           <div className="flex justify-between items-center text-sm text-stone-600">
-            <span>© 2024 Meenaviyal | Under MIT License</span>
+            <span>From Meenaviyal</span>
             <a 
               href="https://github.com/meenaviyal/v60-calculator" 
               target="_blank" 
@@ -293,7 +293,7 @@ const TetsuCalculator = () => {
               className="flex items-center gap-2 hover:text-stone-800 transition-colors"
             >
               <Github className="w-4 h-4" />
-              View on GitHub
+              GitHub
             </a>
           </div>
         </footer>
