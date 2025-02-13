@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/tetsu-calculator/', // Replace with your repo name
+  base: '/v60-calculator
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
