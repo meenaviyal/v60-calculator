@@ -125,8 +125,8 @@ const TetsuCalculator = () => {
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center gap-3">
               <Coffee className="w-8 h-8 text-stone-800" />
-              <h1 className="text-2xl font-bold text-stone-800">
-                Tetsu Kasuya Method
+              <h1 className="text-lg font-bold text-stone-800">
+                Tetsu Kasuya 4:6 Method Calculator
               </h1>
             </div>
             <button 
@@ -270,9 +270,9 @@ const TetsuCalculator = () => {
                     <div className="flex-1 py-2 px-3">
                       <span className="text-sm font-medium text-stone-800">
                         {idx === 0 ? (
-                          <>Bloom with <span className="font-bold">{pour}g</span></>
+                          <>Bloom with <span className="font-bold">{pour}g</span> water</>
                         ) : (
-                          <>Add up to <span className="font-bold">{calculations.runningTotal[idx]}g water</span></>
+                          <>Add up to <span className="font-bold">{calculations.runningTotal[idx]}g</span> water</>
                         )}
                       </span>
                     </div>
