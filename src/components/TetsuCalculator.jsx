@@ -157,9 +157,6 @@ const TetsuCalculator = () => {
                              focus:ring-2 focus:ring-stone-500 focus:border-transparent transition-all text-lg"
                     placeholder="20"
                   />
-                  <p className="text-xs text-stone-500 italic">
-                    Recommended minimum quantity is 6g, finest grind
-                  </p>
                 </div>
               </div>
 
