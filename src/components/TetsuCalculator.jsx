@@ -285,9 +285,9 @@ const TetsuCalculator = () => {
 
         <footer className="mt-6 py-3 px-6 bg-white/20 backdrop-blur-sm border-t border-stone-200">
           <div className="flex justify-between items-center text-sm text-stone-600">
-            <span>Created by Hiran Venugopalan</span>
+            <span>© 2024 Meenaviyal | Under MIT License</span>
             <a 
-              href="https://github.com/hfactor/v60-calculator" 
+              href="https://github.com/meenaviyal/v60-calculator" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-stone-800 transition-colors"
